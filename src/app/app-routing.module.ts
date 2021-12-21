@@ -1,3 +1,4 @@
+import { SmsComponent } from './sms/sms.component';
 import { AdmobComponent } from './admob/admob.component';
 import { BarcodeScannerComponent } from './barcode-scanner/barcode-scanner.component';
 import { CameraPreviewComponent } from './camera-preview/camera-preview.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path: 'camera' , component: CameraPreviewComponent},
   {path: 'barcodeScanner' , component: BarcodeScannerComponent},
   {path: 'admob' , component: AdmobComponent},
+  {path: 'sms' , component: SmsComponent},
 ];
 
 @NgModule({

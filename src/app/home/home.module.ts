@@ -1,3 +1,4 @@
+import { SmsComponent } from './../sms/sms.component';
 import { AdmobComponent } from './../admob/admob.component';
 import { BarcodeScannerComponent } from './../barcode-scanner/barcode-scanner.component';
 import { CameraPreviewComponent } from './../camera-preview/camera-preview.component';
@@ -26,6 +27,7 @@ import { HomePageRoutingModule } from './home-routing.module';
     CameraPreviewComponent,
     BarcodeScannerComponent,
     AdmobComponent,
+    SmsComponent
   ]
 })
 export class HomePageModule {}

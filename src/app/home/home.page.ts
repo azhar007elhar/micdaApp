@@ -10,8 +10,8 @@ const { AdMob } = Plugins;
 export class HomePage {
 
   constructor(public AdmobService: AdmobService) {
-    AdMob.initialize();
-    this.AdmobService.showBottomBanner();
+    // AdMob.initialize();
+    // this.AdmobService.showBottomBanner();
   }
 
 }
