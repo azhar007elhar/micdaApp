@@ -12,7 +12,7 @@ const { AdMob } = Plugins;
 export class AdmobComponent implements OnInit {
 
   constructor(public AdmobService: AdmobService) {
-    // AdMob.initialize();
+    AdMob.initialize();
     this.AdmobService.showBottomBanner();
     this.AdmobService.prepareInterstitial();
   }
